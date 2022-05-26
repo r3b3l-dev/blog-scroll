@@ -12,25 +12,25 @@ const scrollTrackingTimeline = new ScrollTimeline({
 
 animatedImages.forEach(image => {
     const animatedImageTimeline = new ScrollTimeline({
-        scrollOffsets: [
-            { target: image, edge: "end", threshold: "0" },
-            { target: image, edge: "start", threshold: "1" },
+        scrollOffsets:[
+            { target:image, edge: "end", threshold: "0" },
+            { target:image, edge: "start", threshold: "1" },
         ],
     });
 
     image.animate(
-        {
-            transform: [
-                "perspective(1000px) rotateX(45deg)",
-                "perspective(1000px) rotate(0)",
-            ],
-            opacity: ["0.5", "1"],
-        },
-        {
-            duration: 1,
-            timeline: animatedImageTimeline,
-        }
-    );
+    {
+        transform: [
+            "perspective(1000px) rotateX(45deg)",
+            "perspective(1000px) rotate(0)",
+    ],
+    opacity: ["0.5", "1"],
+    },
+    {
+        duration: 1,
+        timeline: animatedImageTimeline,
+    }
+);
 });
 
 
