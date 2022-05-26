@@ -12254,4 +12254,10 @@ fieldset:disabled .btn {
   inset: 0 0 auto;
   height: .5rem;
   background-color: blue;
+  transform-origin: left;
+  z-index: 2;
+}
+
+.comments {
+  z-index: 1;
 }
