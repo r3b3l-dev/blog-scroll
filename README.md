@@ -8,7 +8,7 @@
 </a>
 
 <p align="center">
-	Description of the project goes here.
+	Blog example with animated scroll bar and image transition using Javascript and CSS.
 	<br />
 	<a href="https://r3b3l-dev.github.io/blog-scroll/">View Live Project Here</a>
 </p>
