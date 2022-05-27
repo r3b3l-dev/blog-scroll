@@ -4,60 +4,43 @@
 <br />
 <div align="center">
 <a href="https://github.com/r3b3l-dev/repo_name">
-	<img src="https://via.placeholder.com/168x41.png?text=logo" alt="Logo">
+	<img src="assets/logo.png" alt="Logo">
 </a>
 
 <p align="center">
 	Description of the project goes here.
 	<br />
-	<a href="https://r3b3l-dev.github.io/">View Live Project Here</a>
+	<a href="https://r3b3l-dev.github.io/blog-scroll/">View Live Project Here</a>
 </p>
 </div>
 
-<h2 align="center"><img src="https://via.placeholder.com/800x600.png?text=screenshot"></h2>
+<h2 align="center"><img src="assets/responsive-screenshot.png"></h2>
 
 <br>
 <!-- TABLE OF CONTENTS -->
 <details>
 <summary>Table of Contents</summary>
 <ol>
-	<li><a href="#user-experience-(ux)">User Experience (UX)<a></li>
 	<li><a href="#features">Features</a></li>
 	<li><a href="#technologies-used">Technologies Used</a></li>
 	<li><a href="#testing">Testing</a></li>
 	<li><a href="#deployment">Deployment</a></li>
-	<li><a href="#credits">Credits</a></li>
 </ol>
 </details>
 <br>
 
 
-## User Experience (UX)
-
--   ### User stories
-
-    -   #### First Time Visitor Goals
-
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
--   ### Design
-    -   #### Colour Scheme
-![Colour Scheme](https://via.placeholder.com/1140x171.png?text=colour-palette-placeholder)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 ## Features
 
--   Responsive on all device sizes
+-   Scrollbar that displays at the top of the screen showing the progress of scrolling the page
 
--   Interactive elements
+	![Scrollbar](assets/scrollbar.png)
+
+-   Images are animated on scroll.
+
+	![Animated Image](assets/image-animation.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 ## Technologies Used
 
@@ -69,7 +52,7 @@
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Tailwind v3.0.24:](https://tailwindcss.com/docs/installation)
+1. [Bootstrap](https://getbootstrap.com/)
 	- Tailwind was used to assist with the responsiveness and styling of the website.
 1. [Git](https://git-scm.com/)
 	- Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -78,24 +61,18 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C HTML Markup Validator](https://validator.w3.org/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fr3b3l-dev.github.io%2Fmanage%2F)
+-   [W3C CSS Validaton](https://validator.w3.org/) - ![Results](assets/w3c-css.png)
 
-![HTML Validation](https://via.placeholder.com/1827x501.png?text=w3c-validator)
-
+-	[w3C Markup Validation](https://validator.w3.org/) - ![Results](assets/w3-html-validation.png)
 
 ### Further Testing
 
-[Lighthouse](https://developers.google.com/web/tools/lighthouse/) analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices.
-
-![Lighthouse Test Results](https://via.placeholder.com/1827x501.png?text=lighthouse)
-
 [GTmetrix](https://gtmetrix.com/) was developed by Carbon60 as a tool for customers to easily test the performance of their webpages.
-![GTmetrix](https://via.placeholder.com/1827x501.png?text=gtmetrix)
+![GTmetrix](assets/gtmetrix.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -148,27 +125,3 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-## Credits
-
-### Code
-
--  The project is based on  [Insert Link Here]()
-
--  The code for this tutorial came from [Insert Link Here]()
-
--   [Tailwind Css](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Tailwind Library used throughout the project.
-
-
-### Content
-
--   All content was from [Insert Link Here]()
-
-
-### Media
-
--   All media was from [Insert Link Here]()
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
